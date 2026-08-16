@@ -3,6 +3,8 @@ function App(){
     <div className="uppercase text-green-600">
       <div> small change</div>
       <div>another small change</div>
+      <div>another small change</div>
+
     </div>
   )
 }
