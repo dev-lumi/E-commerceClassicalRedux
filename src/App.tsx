@@ -24,7 +24,7 @@ function App() {
  fetchProducts()
   }, []);
   return (
-    <div className=" uppercase italic text-[14px] font-semibold text-green-600 p-5 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+    <div className=" uppercase italic text-[12px] font-semibold text-green-600 p-5 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
       {products.map((product,_id)=>(<div className=" ring flex flex-col items-center p-2  rounded hover:bg-green-600 hover:text-white " key={product.id}><h1>{_id + 1}. {product.title}</h1>
         <img className="w-40 h-40 " src={product.images[0]}/>
       </div>))}
